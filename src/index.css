@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  border: 1px solid transparent;
+  background-color: slategrey;
+  text-decoration: underline;
+  font-size: 1em;
+  font-weight: bold;
+  font-family: inherit;
+  padding: 5px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+/* .card {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.card-header .card-image {
+  padding: 0;
+  overflow: hidden;
+}
+
+.card-header.card-image > img {
+  display: block;
+  width: 50%;
+  max-height: 100px;
+  object-fit: scale-down;
+  object-position: center;
+  transition: 200ms transform ease-in-out;
+}
+
+.card:hover > .card-header.card-image > img {
+  transform: scale(1.025);
+}
+
+.card-header {
+  font-size: 1.5rem;
+  padding: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+}
+
+.card-body {
+  font-size: 0.9rem;
+  padding: 0 1rem;
+}
+
+.card-footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  padding-top: 0;
+} */
