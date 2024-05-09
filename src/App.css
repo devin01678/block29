@@ -1,0 +1,16 @@
+* {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 0.5rem;
+  background-color: antiquewhite;
+}
+
+img {
+  max-height: 500px;
+  max-width: 500px;
+}
+
+btn {
+  color: brown;
+  background-color: brown;
+}

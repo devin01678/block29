@@ -22,7 +22,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<AllPlayers />} />
+          <Route path="/" element={<AllPlayers players={players} />} />
           <Route
             path="/allplayers/:playerId"
             element={<SinglePlayer players={players} />}
